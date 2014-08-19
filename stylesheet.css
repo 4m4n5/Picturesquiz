@@ -1,0 +1,255 @@
+/*
+
+body
+{
+ background-color:#666699; 
+    
+}
+div{
+ background-color:#E9F2F9 ;  
+    
+    
+}
+#jessica{
+height: 100px;
+width: 100px;
+    
+     
+}
+#instructions{
+ margin-top: 60px;
+    border:4px solid black;
+}
+#Heading{
+border: 4px solid black;
+    margin-left: 500px;
+    width:200px;
+    height: 65px;
+    border-radius: 10%;
+}
+#movie{
+ margin-top: 50px;   
+border: 4px solid black;
+    height:30px;
+    width:350px;
+    font-size: 20px;
+}
+#start{
+    
+ margin-top:100px;  
+    display:inline-block;
+}
+#score{
+ height:25px;
+    width:100px;
+    border: 2px solid black;
+    margin-top:auto;   
+    display:inline-block;
+}
+#hello{
+height:25px;
+    width:100px;
+    border: 2px solid black;
+    display:inline-block;
+    
+}
+#nxt{
+ display:inline-block;
+}
+*/
+
+/*
+{
+   color: #6FB7E9;
+text-decoration: none;
+    font-family: monospace;
+    
+}
+*/
+
+   
+
+#actress button{
+    height: 200px; 
+    width: 200px;
+  
+                                   
+}
+
+
+#one, #two{
+    
+    display: inline-block;
+}
+
+#three, #four{
+    display: inline-block;
+}
+
+#one, #three{
+    margin-left: 180px;
+}
+
+#two, #four{
+    margin-left: 350px;
+}
+
+body{
+    height:100%;
+    width:100%;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+
+#drew {
+    background-image: url(http://trendymatter.com/wp-content/uploads/2014/05/Drew-Barrymore-8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#scarlett{
+     background-image: url(http://hudabeauty.com/wp-content/uploads/2013/10/Scarlett-Johansson-scarlett-johansson-33450733-500-629.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jennifer{
+     background-image: url(http://p1.pichost.me/i/58/1822516.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jessica{
+    background-image: url(http://4.bp.blogspot.com/-SdYNgYmQQlI/TuTMzH7BlwI/AAAAAAAAFn0/k6dY9uNBZFo/s1600/jessica-alba-wallpaper-1600x1200_hd_wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#Start{
+  
+    text-align: center;
+    height:40px;
+    width:100px;
+    font-family: monospace;
+    color: #6E7A83;
+
+    
+    
+}
+
+#start{
+    
+   width: 355px;
+    margin-left:380px;
+    font-size: 23px;
+    text-align: center;
+    font-family: monospace;
+        
+}
+
+#movie{
+    width: 755px;
+    margin-left:180px;
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+    color: #E5F1F4;
+    height:39px;
+}
+
+#score{
+    width: 355px;
+    margin-left:380px;
+    font-size: 25px;
+    text-align: center;
+    font-family: monospace;
+    color: #E5F1F4;
+    height:27px;
+}
+
+#hello{
+    width: 355px;
+    margin-left:380px;
+    font-size: 23px;
+    text-align: center;
+    font-family: monospace;
+    color: #E5F1F4;
+    height:25px;
+}
+
+#nxt{
+    width: 355px;
+    margin-left:380px;
+    font-size: 23px;
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+#nxtButton{
+     text-align: center;
+    height:40px;
+    width:100px;
+    font-family: monospace;
+     color: #6E7A83;
+    
+}
+
+#Heading{
+    
+    width: 755px;
+    margin-left:180px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Pacifico';
+    color: #3C8DC5;
+    height:39px;
+    margin-top: -25px;
+    margin-bottom: 70px;
+
+}
+
+#actress{
+    width:950px;
+}
+#us{
+    background-color: black;
+    background-image: 
+        url(final2.jpg);
+    border-radius: 5px;
+        
+    height:540px;
+    width: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px white;
+    
+}
+
+#actress, #us{
+    display: inline-block;
+}
+    
+#instructions{
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+    
+        
+        
+    
+
+
+
+
+

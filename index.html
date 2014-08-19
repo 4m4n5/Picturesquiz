@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Help</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu|Pacifico' rel='stylesheet' type='text/css'>
+</head>
+    <body> 
+    <script type="text/javascript">
+ var kaka=0;       
+var mov= new Array(" Boys on the Side",
+"Winter's Bone",
+"American Hustle",
+"Blended",
+"The Prestige", 
+"Motorama",
+"X-Men: First Class",
+"A Good Woman",
+"50 First Dates",
+"Awake",
+"Bad Girls",
+"Don Jon",
+"Doppelganger",
+"Dumb and Dumber To",
+"Escape from Planet Earth",
+"Ever After",
+"fall",
+"Fantastic Four",
+"Jack & Jill",
+"Ghost World",
+"Far From Home",
+"Garden Party",
+"Duplex",
+"Good Luck Chuck",
+"Hitchcock",
+"House at the End of the Street",
+"In Good Company",
+"Into the Blue",
+"Knocked Up",
+"Like Crazy",
+"Little Fockers",
+"Mad Love",
+"manny & lo",
+"Match Point",
+"Meet Bill",
+"Poisen Ivy",
+"Scream",
+"Serena",
+"Silver Linings Playbook",
+"Sin City",
+"Skipped Parts",
+"the Avengers",
+"The Beaver",
+"The Black Dahlia",
+"The Burning Plain",
+"The Devil You Know",
+"The Horse Whisperer",
+"The Hunger Games",
+"The Killer Inside Me",
+"The Love Guru",
+"The Poker House",
+"The Sleeping Dictionary",
+"The Wedding Singer",
+"Titan A.E.",
+"Under the skin",
+"Valentine's Day", 
+"We Bought a Zoo",
+"Who wans't There"
+);
+ var a=0;
+ var y=30;
+var ashish =false;
+        function clockk()
+        {if(y==30){
+        myVar=window.setInterval("counter()",1000);
+        }
+     
+        }
+        function counter(){
+      if((y==1)||(y<=0)){
+       window.clearTimeout(myVar);   
+      }
+         y=y-1;
+         document.getElementById("hello").innerHTML='Time Left: '+ y;
+         //document.write("dude");
+     }
+        
+function score(){
+            
+    if((ashish==true)&&(y>0)){
+        x++;
+        ashish=false;
+    }
+     document.getElementById("score").innerHTML='Score: '+x;
+    
+    if(y>1)
+    
+    { 
+        document.getElementById("movie").innerHTML=mov[a];
+    }
+    
+    else if(y<=1)
+    {
+        document.getElementById("score").innerHTML=' Your Final Score is: ' + x ;
+    }
+    if(a==58){
+        document.getElementById("score").innerHTML='Your Final Score is: ' + x;
+    }
+}
+function start(){
+    x=0;
+    y=30;
+    //clockk();
+    //score();
+    a=0;
+            kaka++;
+       if(kaka==1){
+       clockk();
+           score();
+       
+       }
+    else{
+      document.getElementById("movie").innerHTML='Press reload to play again';  
+    }
+        
+        }
+function nexMov(){
+   if(kaka==1){ a++;
+    document.getElementById("movie").innerHTML=mov[a];
+}}
+function barrymore(){
+  if((a==0)||(a==3)||(a==5)||(a==8)||(a==10)||(a==12)||(a==15)||(a==22)||(a==31)||(a==18)||(a==20)||(a==35)||(a==36)||(a==40)||(a==52)||(a==53)){
+      ashish=true;
+      }
+   if(a<58){ a++;}
+    score();
+}
+function johansson(){
+    if((a==56)||(a==57)||(a==54)||(a==46)||(a==43)||(a==41)||(a==32)||(a==33)||(a==26)||(a==24)||(a==19)||(a==16)||(a==11)||(a==7)||(a==4)){
+     ashish=true;   
+        
+    }
+   if(a<58) {a++;}
+    score();
+}
+        function alba(){
+            if( (a==9)||(a==14)||(a==17)||(a==23)||(a==27)||(a==28)||(a==30)||(a==34)||(a==39)||(a==48)||(a==49)||(a==51)||(a==55)){
+             ashish=true;   
+            }
+            if(a<58){a++;}
+            score();
+        }
+        function lawrence(){
+            if( (a==1)||(a==2)||(a==6)||(a==13)||(a==21)||(a==25)||(a==29)||(a==37)||(a==38)||(a==42)||(a==44)||(a==45)||(a==47)||(a==50)){
+            ashish=true;    
+            }
+            if(a<58){a++;}
+            score();
+        }
+        
+        
+        
+        
+    </script>
+        <div id="Heading"><h2>Picturesquiz</h2></div>
+    
+  
+   <div id="start" >    
+   <button type="button" id="Start" onclick="start()"><strong>Start</strong></button>
+   </div>
+        
+<div id="actress">
+
+    
+    <div id="one">
+    <button type="button" id="jessica" onClick="alba()"></button>
+    </div>
+
+    
+    <div id="two">
+    <button type ="button" id="scarlett" onClick="johansson()"></button>
+    </div>    
+    <br><br>
+    <div id="score">   
+    </div>
+    <div id ="movie"> 
+    </div>
+    <div id="hello">
+    </div> 
+    <br><br>
+    <div id="three">
+    <button type="button" id="drew" onClick="barrymore()"></button> 
+    </div>    
+    
+    <div id="four">
+    <button id="jennifer" type="button" onClick="lawrence()"></button>
+    </div>    
+
+</div>
+<div id="us">
+    
+
+</div>    
+
+        
+<div id="nxt">
+    
+    <button type="button" onClick="nexMov()" id="nxtButton" ><strong>Next Movie</strong></button>
+    
+</div>
+   
+
+    
+  
+
+    
+<div id="instructions">
+    <h3>Instructions:<br/></h3>
+        <ul>
+            
+            <li>The rules of the game are simple, a movie would be displayed in the box and you have to click on the photo of the actress cast into the film.
+            </li>
+            
+            <li>Click on the start button to initiate the counter.
+            </li>
+            
+            <li>To replay the game reload the game page.
+            </li>
+    
+        </ul>
+</div>
+   
+</body>
+
+</html>
